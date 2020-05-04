@@ -11,4 +11,5 @@ import UIKit
 class PokedexCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var numberLabel: UILabel!
 }

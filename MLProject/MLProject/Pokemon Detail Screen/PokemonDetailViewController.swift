@@ -10,14 +10,19 @@ import UIKit
 
 class PokemonDetailViewController: UIViewController {
 
+    var pokemon: Pokemon?
+    
+    @IBOutlet weak var image: UIImageView!
     var text: String?
     
-    @IBOutlet weak var randomLabel: UILabel!
+    @IBOutlet weak var name: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        randomLabel.text = text
+        name.text = pokemon?.name?.capitalized
+        image.image = pokemon?.image
+        
         // Do any additional setup after loading the view.
     }
     

@@ -31,7 +31,8 @@
                         <viewLayoutGuide key="safeArea" id="nkC-0o-FYn"/>
                     </view>
                     <connections>
-                        <outlet property="randomLabel" destination="sIl-RV-tkO" id="UMv-sS-7W3"/>
+                        <outlet property="image" destination="foB-FN-F8i" id="7Wj-iK-2f7"/>
+                        <outlet property="name" destination="sIl-RV-tkO" id="xif-B5-Udw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r3x-ST-kUa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
