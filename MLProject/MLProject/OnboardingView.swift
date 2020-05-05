@@ -6,4 +6,9 @@
 //  Copyright © 2020 Eduardo Sarmanho. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class OnboardingView: UIView {
+    @IBOutlet weak var image: UIImageView!
+    
+}
