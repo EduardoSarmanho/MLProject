@@ -21,6 +21,10 @@ class PokedexViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.reloadData()
+        navigationController?.navigationBar.barTintColor = UIColor(named: "Vermelho Pokedex")
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+
+//            UIColor(red: 255, green: 69, blue: 58, alpha: 1)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -45,7 +49,7 @@ extension PokedexViewController: UICollectionViewDataSource {
             cell.imageView.image = pokemon[indexPath.row].image
             cell.nameLabel.text = pokemon[indexPath.row].name?.capitalized
         } else {
-            cell.imageView.image = pokemon[indexPath.row].image
+            cell.imageView.image = pokemon[indexPath.row].image?.withTintColor(.darkGray)
             cell.nameLabel.text = "?????"
         }
     
@@ -63,7 +67,9 @@ extension PokedexViewController: UICollectionViewDataSource {
 
 extension PokedexViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if pokemon[indexPath.row].isRegistred {
         self.performSegue(withIdentifier: "goToDetail", sender: pokemon[indexPath.row])
+        }
     }
 }
 
