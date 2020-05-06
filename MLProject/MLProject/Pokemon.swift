@@ -12,6 +12,7 @@ class Pokemon {
     var attack: Int?
     var description: String?
     var type: String?
+    var isRegistred = false
     
     init(id: Int, dictionary: [String: AnyObject]) {
         

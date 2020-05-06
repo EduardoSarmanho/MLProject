@@ -9,18 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var pokemon = [Pokemon]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        fetchPokemon()
     }
-
-    func fetchPokemon() {
-           Service.shared.fetchPokemon { (pokemon) in
-               DispatchQueue.main.async {
-                   self.pokemon = pokemon
-               }
-           }
-       }
 }
+
+
 
