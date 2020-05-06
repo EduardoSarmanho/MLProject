@@ -25,6 +25,8 @@
 		F2BDCD17246088C400CFE20E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BDCD16246088C400CFE20E /* OnboardingViewController.swift */; };
 		F2BDCD192462036E00CFE20E /* OnboardingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2BDCD182462036E00CFE20E /* OnboardingView.xib */; };
 		F2BDCD1B246203B000CFE20E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BDCD1A246203B000CFE20E /* OnboardingView.swift */; };
+		F2DF713524634221003C52B4 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DF713424634221003C52B4 /* Camera.storyboard */; };
+		F2DF71372463435D003C52B4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF71362463435D003C52B4 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		F2BDCD16246088C400CFE20E /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		F2BDCD182462036E00CFE20E /* OnboardingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingView.xib; sourceTree = "<group>"; };
 		F2BDCD1A246203B000CFE20E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F2DF713424634221003C52B4 /* Camera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		F2DF71362463435D003C52B4 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				F2BDCD16246088C400CFE20E /* OnboardingViewController.swift */,
 				F2BDCD182462036E00CFE20E /* OnboardingView.xib */,
 				F2BDCD1A246203B000CFE20E /* OnboardingView.swift */,
+				F2DF713424634221003C52B4 /* Camera.storyboard */,
+				F2DF71362463435D003C52B4 /* CameraViewController.swift */,
 			);
 			path = MLProject;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 				7FA362502458A842004BA5FF /* Assets.xcassets in Resources */,
 				2788FE12245B48C9002F165D /* PokemonDetail.storyboard in Resources */,
 				7FA3624E2458A841004BA5FF /* Main.storyboard in Resources */,
+				F2DF713524634221003C52B4 /* Camera.storyboard in Resources */,
 				F2BDCD152460872300CFE20E /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2DF71372463435D003C52B4 /* CameraViewController.swift in Sources */,
 				7FA3624B2458A841004BA5FF /* ViewController.swift in Sources */,
 				F2BDCD17246088C400CFE20E /* OnboardingViewController.swift in Sources */,
 				7FE03ED5245B650900EE7C3E /* Pokemon.swift in Sources */,
