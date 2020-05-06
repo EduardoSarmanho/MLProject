@@ -18,6 +18,7 @@
 		7FA3624E2458A841004BA5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA3624C2458A841004BA5FF /* Main.storyboard */; };
 		7FA362502458A842004BA5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA3624F2458A842004BA5FF /* Assets.xcassets */; };
 		7FA362532458A842004BA5FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA362512458A842004BA5FF /* LaunchScreen.storyboard */; };
+		7FD8E6CE24632914007CAFE1 /* PokemonClassifier.mlproj in Resources */ = {isa = PBXBuildFile; fileRef = 7FD8E6CD24632914007CAFE1 /* PokemonClassifier.mlproj */; };
 		7FE03ED5245B650900EE7C3E /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE03ED4245B650900EE7C3E /* Pokemon.swift */; };
 		7FE03ED8245B656900EE7C3E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE03ED7245B656900EE7C3E /* Service.swift */; };
 		F2BDCD152460872300CFE20E /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BDCD142460872300CFE20E /* Onboarding.storyboard */; };
@@ -40,6 +41,7 @@
 		7FA3624F2458A842004BA5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA362522458A842004BA5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FA362542458A842004BA5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD8E6CD24632914007CAFE1 /* PokemonClassifier.mlproj */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PokemonClassifier.mlproj; sourceTree = "<group>"; };
 		7FE03ED4245B650900EE7C3E /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		7FE03ED7245B656900EE7C3E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		F2BDCD142460872300CFE20E /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		7FA362452458A841004BA5FF /* MLProject */ = {
 			isa = PBXGroup;
 			children = (
+				7FD8E6CD24632914007CAFE1 /* PokemonClassifier.mlproj */,
 				7FA362462458A841004BA5FF /* AppDelegate.swift */,
 				7FA362482458A841004BA5FF /* SceneDelegate.swift */,
 				7FA3624A2458A841004BA5FF /* ViewController.swift */,
@@ -190,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD8E6CE24632914007CAFE1 /* PokemonClassifier.mlproj in Resources */,
 				7FA362532458A842004BA5FF /* LaunchScreen.storyboard in Resources */,
 				2788FE0D245B4876002F165D /* Pokedex.storyboard in Resources */,
 				F2BDCD192462036E00CFE20E /* OnboardingView.xib in Resources */,
