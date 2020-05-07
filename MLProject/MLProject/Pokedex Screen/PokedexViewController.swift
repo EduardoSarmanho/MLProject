@@ -48,7 +48,9 @@ extension PokedexViewController: UICollectionViewDataSource {
         if pokemon[indexPath.row].isRegistred {
             cell.imageView.image = pokemon[indexPath.row].image
             cell.nameLabel.text = pokemon[indexPath.row].name?.capitalized
+            cell.backgroundImage.isHidden = false
         } else {
+            cell.backgroundImage.isHidden = true
             cell.imageView.image = pokemon[indexPath.row].image?.withTintColor(.darkGray)
             cell.nameLabel.text = "?????"
         }
