@@ -36,14 +36,14 @@ class CameraViewController: UIViewController, AVCaptureVideoDataOutputSampleBuff
         print("aaa")
         guard let pixelBuffer: CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else { return }
         
-        let model = VNCoreMLModel(for: PokemonClassifier().model)
+//        let model = VNCoreMLModel(for: PokemonClassifier().model)
         
-        let request = VNCoreMLRequest(model: model)
-        {(finishedReq, err) in
-            print(finishedReq.results)
-            
-        }
-        VNImageRequestHandler(cvPixelBuffer: pixelBuffer, options: [:]).perform([request])
+//        let request = VNCoreMLRequest(model: model)
+//        {(finishedReq, err) in
+//            print(finishedReq.results)
+//
+//        }
+//        VNImageRequestHandler(cvPixelBuffer: pixelBuffer, options: [:]).perform([request])
     }
     
 }
