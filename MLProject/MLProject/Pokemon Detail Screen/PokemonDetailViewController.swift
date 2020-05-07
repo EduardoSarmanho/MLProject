@@ -28,6 +28,8 @@ class PokemonDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        PokedexViewController.pokemon[(pokemon?.id ?? 1)-1].isRegistred = true
+        
         guard let pokemon = pokemon else { return }
         
         name.text = pokemon.name?.capitalized
